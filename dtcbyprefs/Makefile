@@ -8,8 +8,8 @@ BUNDLE_NAME = DTCByPrefs
 
 DTCByPrefs_FILES = DTCByRootListController.m
 DTCByPrefs_FRAMEWORKS = UIKit
+DTCByPrefs_PRIVATE_FRAMEWORKS = Preferences
 DTCByPrefs_INSTALL_PATH = /Library/PreferenceBundles
 DTCByPrefs_CFLAGS = -fobjc-arc
-DTCByPrefs_LDFLAGS = -F$(SYSROOT)/System/Library/PrivateFrameworks
 
 include $(THEOS_MAKE_PATH)/bundle.mk
