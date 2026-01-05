@@ -1,4 +1,5 @@
 #import <UIKit/UIKit.h>
+#import <Preferences/PSListController.h>
 #import <spawn.h>
 
 @interface PSListController : UIViewController
