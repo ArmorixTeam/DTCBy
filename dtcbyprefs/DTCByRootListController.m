@@ -1,5 +1,6 @@
 #import <Preferences/PSListController.h>
 #import <Preferences/PSSpecifier.h>
+#import <spawn.h>
 
 @interface DTCByRootListController : PSListController
 @end
