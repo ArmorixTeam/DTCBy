@@ -12,10 +12,10 @@
 @implementation DTCByRootListController
 
 - (NSArray *)specifiers {
-    if (!_specifiers) {
-        _specifiers = [self loadSpecifiersFromPlistName:@"Root" target:self];
+    if (!self.specifiers) {
+        self.specifiers = [self loadSpecifiersFromPlistName:@"Root" target:self];
     }
-    return _specifiers;
+    return self.specifiers;
 }
 
 - (void)viewDidLoad {
