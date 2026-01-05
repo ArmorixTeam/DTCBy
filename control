@@ -1,0 +1,10 @@
+Package: com.zodacios.dtcby
+Name: DTCBy
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Description: Jailbroken tweak to bypass screenshot & screen recording detection
+Maintainer: ZodaciOS
+Author: ZodaciOS
+Section: Tweaks
+Depends: mobilesubstrate | com.ex.libhooker, firmware (>= 14.0), preferenceloader, com.opa334.cephei
+Icon: file:///Library/PreferenceBundles/DTCByPrefs.bundle/icon.png
