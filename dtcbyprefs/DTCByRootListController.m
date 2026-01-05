@@ -1,6 +1,10 @@
-#import <Preferences/PSListController.h>
-#import <Preferences/PSSpecifier.h>
+#import <UIKit/UIKit.h>
 #import <spawn.h>
+
+@interface PSListController : UIViewController
+@property (nonatomic, retain) NSArray *specifiers;
+- (NSArray *)loadSpecifiersFromPlistName:(NSString *)name target:(id)target;
+@end
 
 @interface DTCByRootListController : PSListController
 @end
