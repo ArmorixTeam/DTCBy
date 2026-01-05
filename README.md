@@ -1,6 +1,8 @@
 # DTCBy
 Jailbroken tweak to bypass screenshot &amp; screen recording
 
+This tweak should support iOS 14+ & rootless. Check .deb installation in releases.
+
 # How this works
 
 ```UIApplicationUserDidTakeScreenshotNotification``` is a notification posted whenever the user takes a screenshot.
