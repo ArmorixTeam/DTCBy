@@ -1,0 +1,38 @@
+name: Build DTCBy
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-latest
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+    
+    - name: Install Theos
+      run: |
+        git clone --recursive https://github.com/theos/theos.git $HOME/theos
+        echo "THEOS=$HOME/theos" >> $GITHUB_ENV
+        
+    - name: Setup iOS SDK
+      run: |
+        curl -LO https://github.com/theos/sdks/archive/master.zip
+        unzip master.zip
+        mv sdks-master/* $HOME/theos/sdks/
+        
+    - name: Build tweak
+      run: |
+        make package FINALPACKAGE=1
+        
+    - name: Upload DEB
+      uses: actions/upload-artifact@v3
+      with:
+        name: DTCBy-deb
+        path: packages/*.deb
+        
