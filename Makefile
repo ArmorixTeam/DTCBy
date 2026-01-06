@@ -1,5 +1,5 @@
 TARGET := iphone:clang:latest:14.0
-ARCHS = arm64 arm64e
+ARCHS = arm64e
 THEOS_PACKAGE_SCHEME = rootless
 THEOS_DEVICE_IP = localhost -p 2222
 
