@@ -1,8 +1,8 @@
 #import <UIKit/UIKit.h>
-#import <Preferences/PSListController.h>
+#import <CepheiPrefs/HBRootListController.h>
 #import <spawn.h>
 
-@interface DTCByRootListController : PSListController
+@interface DTCByRootListController : HBRootListController
 @end
 
 @implementation DTCByRootListController
