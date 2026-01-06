@@ -60,3 +60,8 @@ Whenever an application checks if ```UIScreen.main.isCaptured``` is triggered, i
 ```
 
 Intercepts all notifications with ```%orig```.
+
+
+# Credits
+
+The hooking is similar or near identical to opa334's NoRecording tweak.
