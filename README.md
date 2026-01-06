@@ -64,4 +64,6 @@ Intercepts all notifications with ```%orig```.
 
 # Credits
 
-The hooking is similar or near identical to opa334's NoRecording tweak.
+The hooking is similar or near identical to opa334's NotRecording tweak.
+
+(I didnt copy it but the hooking is similar. I did steal the ivar method though, thanks)
