@@ -13,7 +13,6 @@ DTCByPrefs_INSTALL_PATH = /Library/PreferenceBundles
 DTCByPrefs_CFLAGS = -fobjc-arc
 
 DTCByPrefs_INSTALL_PATH = /Library/PreferenceBundles
-
 DTCByPrefs_EXTRA_PLISTS = DTCByPrefs.plist
 
 include $(THEOS_MAKE_PATH)/bundle.mk
