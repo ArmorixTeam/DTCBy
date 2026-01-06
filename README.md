@@ -1,5 +1,9 @@
 # DTCBy
-Jailbroken tweak to bypass screenshot &amp; screen recording
+
+> [!CAUTION]
+> DTCBy was created purposely for education and experimental testing. Armorix Team or its developers are NOT responsible for any punishment caused by usage of this tweak. You WILL be banned on Snapchat if you use it their.
+
+Jailbroken tweak to bypass screenshot &amp; screen recording detection
 
 This tweak should support iOS 14+ & has rootless support. Check .deb installation in releases.
 
@@ -12,6 +16,7 @@ I'm too lazy to add specific app support or a preference bundle (and also I keep
 Grab the latest .deb in releases. Install it with Sileo, Zebra, etc.
 
 Once installed, respring. The tweak should be active and no further action is required.
+
 
 # How this works
 
