@@ -3,6 +3,10 @@ Jailbroken tweak to bypass screenshot &amp; screen recording
 
 This tweak should support iOS 14+ & rootless. Check .deb installation in releases.
 
+## Pull Requests Open!
+
+I'm too lazy to add specific app support or a preference bundle (and also I keep breaking it somehow, so ultimately I gave up). If you want to contribute (or add) support for it, please make a pull request.
+
 # How this works
 
 ```UIApplicationUserDidTakeScreenshotNotification``` is a notification posted whenever the user takes a screenshot.
