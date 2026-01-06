@@ -1,5 +1,10 @@
 # DTCBy
 
+
+# YOUR LOOKING AT THE EXPERIMENTAL BRANCH
+
+for me dont use this
+
 > [!CAUTION]
 > DTCBy was created purposely for education and experimental testing. Armorix Team or its developers are NOT responsible for any punishment caused by usage of this tweak. You WILL be banned on Snapchat if you use it their.
 
