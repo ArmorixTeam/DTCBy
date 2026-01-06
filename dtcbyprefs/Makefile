@@ -8,7 +8,7 @@ BUNDLE_NAME = DTCByPrefs
 
 DTCByPrefs_FILES = DTCByRootListController.m
 DTCByPrefs_FRAMEWORKS = UIKit
-DTCByPrefs_PRIVATE_FRAMEWORKS = Preferences
+DTCByPrefs_EXTRA_FRAMEWORKS = CepheiPrefs
 DTCByPrefs_INSTALL_PATH = /Library/PreferenceBundles
 DTCByPrefs_CFLAGS = -fobjc-arc
 
