@@ -4,6 +4,12 @@
 - (BOOL)isCaptured {
     return NO;
 }
+
+// Prevent iOS from setting the ivar to YES
+// stole from opa334's notrecording tweak but
+- (void)_setCaptured:(BOOL)captured {
+    %orig(NO);
+}
 %end
 
 %hook UIApplication
