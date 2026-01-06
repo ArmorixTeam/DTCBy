@@ -1,7 +1,7 @@
 # DTCBy
 Jailbroken tweak to bypass screenshot &amp; screen recording
 
-This tweak should support iOS 14+ & rootless. Check .deb installation in releases.
+This tweak should support iOS 14+ & has rootless support. Check .deb installation in releases.
 
 ## Pull Requests Open!
 
