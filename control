@@ -2,8 +2,8 @@ Package: com.zodacios.dtcby
 Name: DTCBy
 Version: 1.0.0
 Architecture: iphoneos-arm64
-Description: Prevents apps from detecting screenshots and screen recordings
+Description: Prevents apps from detecting screenshots and screen recordings. Always active after installation.
 Maintainer: ZodaciOS
 Author: ZodaciOS
 Section: Tweaks
-Depends: mobilesubstrate | com.ex.libhooker, firmware (>= 14.0), preferenceloader
+Depends: mobilesubstrate | com.ex.libhooker, firmware (>= 14.0)
