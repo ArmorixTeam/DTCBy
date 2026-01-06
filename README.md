@@ -7,6 +7,12 @@ This tweak should support iOS 14+ & rootless. Check .deb installation in release
 
 I'm too lazy to add specific app support or a preference bundle (and also I keep breaking it somehow, so ultimately I gave up). If you want to contribute (or add) support for it, please make a pull request.
 
+## Installation Details
+
+Grab the latest .deb in releases. Install it with Sileo, Zebra, etc.
+
+Once installed, respring. The tweak should be active and no further action is required.
+
 # How this works
 
 ```UIApplicationUserDidTakeScreenshotNotification``` is a notification posted whenever the user takes a screenshot.
